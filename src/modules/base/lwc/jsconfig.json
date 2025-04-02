@@ -1,10 +1,17 @@
 {
     "compilerOptions": {
-        "experimentalDecorators": true
+        "experimentalDecorators": true,
+        "baseUrl": ".",
+        "paths": {
+            "c/*": [
+                "*"
+            ]
+        }
     },
     "include": [
         "**/*",
-        "../../../../.sfdx/typings/lwc/**/*.d.ts", "../../../index.js",
+        "../../../../.sfdx/typings/lwc/**/*.d.ts",
+        "../../../index.js"
     ],
     "paths": {
         "c/*": [
